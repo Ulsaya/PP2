@@ -30,6 +30,10 @@ namespace task1
                 Console.WriteLine("Yes");
             
             }
+            else
+            {
+                Console.WriteLine("No");
+            }
             sr.Close();
 
         }
