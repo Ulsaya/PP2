@@ -1,0 +1,2 @@
+C:\Users\ASUS\Desktop\pp2\week1\task2\ConsoleApp15\obj\Debug\ConsoleApp15.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\pp2\week1\task2\ConsoleApp15\obj\Debug\ConsoleApp15.csproj.CoreCompileInputs.cache
