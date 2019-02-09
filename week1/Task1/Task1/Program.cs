@@ -26,7 +26,7 @@ namespace Task1
             string s = Console.ReadLine(); //we enter some string s and read it
             int d = int.Parse(s); //int.Parse() is responsible for converting from  string to int
             string k = Console.ReadLine();//we enter the second string k and read it
-            string[] arr = k.Split(); //Split is responsible for separation of elements of an array by ' '
+            string[] arr = k.Split('_'); //Split is responsible for separation of elements of an array by ' '
             int cnt = 0; //enter some variable,it's empty for now
             List<int> array = new List<int>(); //we create some container to store the data
             for (int i = 0; i < arr.Length; i++) //enter the cycle
