@@ -32,7 +32,7 @@ namespace Task1
             for (int i = 0; i < arr.Length; i++) //enter the cycle
             {
 
-                int num = int.Parse(arr[i]); // conver "num" to the integer 
+                int num = int.Parse(arr[i]); // convert "num" to the integer 
 
                 if (prime(num) == true)
                 {
