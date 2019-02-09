@@ -21,7 +21,7 @@ namespace task2
         }
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\text.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\text.txt"); 
             string k = sr.ReadToEnd();
             string[] arr = k.Split(' ');
             sr.Close();
