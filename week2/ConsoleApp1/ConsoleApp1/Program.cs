@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 namespace Task1
 {
     class Program //class definition that contains bool
-  
+
     {
         static bool prime(int n)
         {
-        
-                if (n == 1) //enter the condition (by task1, number "1" won't lead with remaining prime numbers)
-                    return false;
-                for (int i = 2; i < n; i++)//enter the cycle
-                    if (n % i == 0)// Condition: if n divide by i and remaider = 0, then the number is not prime 
-                        return false;// so it's false
 
-                return true; //else it's true
-            }
+            if (n == 1) //enter the condition (by task1, number "1" won't lead with remaining prime numbers)
+                return false;
+            for (int i = 2; i < n; i++)//enter the cycle
+                if (n % i == 0)// Condition: if n divide by i and remaider = 0, then the number is not prime 
+                    return false;// so it's false
+
+            return true; //else it's true
+        }
         static void Main(string[] args) // Another class definition that contains Main, the program entry point.
         {
 
@@ -44,12 +44,12 @@ namespace Task1
             for (int i = 0; i < array.Count; i++) //cycle
             {
                 Console.Write(array[i]); //output on the second line all prime numbers 
-                Console.Write(' ');// spaces between prime numbers
+                Console.Write(' ');
             }
 
 
         }
-         
-        
+
+
     }
 }

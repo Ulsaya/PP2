@@ -12,14 +12,14 @@ namespace Task2
         public string id;
         public int yearofstudy;
 
-        public Student(string name, string id)
+        public Student(string name, string id) //method "student" with 2 string type variables 
         {
-            this.name = name;
+            this.name = name; //this.variable is responcible for access to the currnt class
             this.id = id;
             yearofstudy = 0;
         }
 
-        public string getName()
+        public string getName()//returns the name of member
         {
             return this.name;
         }
