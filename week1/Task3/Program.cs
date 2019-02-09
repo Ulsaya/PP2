@@ -16,7 +16,7 @@ namespace ConsoleApp1
                 string k = Console.ReadLine();//read the second line
                 string[] arr = k.Split();//separate the elements of an array by ' '
                 int[] numbers = new int[n * 2];//double all elements of an array 
-                int cnt = -1; //variable cnt = -1 to make cnt=0 during the cycle 
+                int cnt = -1; //variable cnt = -1 to write an element 2 times in numbers
                 for (int i = 0; i < n; i++)
                 {
                     cnt++; //add +1 to cnt each time it goes through a cycle
