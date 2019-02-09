@@ -21,13 +21,13 @@ namespace task2
         }
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\text.txt"); 
-            string k = sr.ReadToEnd();
+            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\text.txt"); //читает текстовые файлы 
+            string k = sr.ReadToEnd();//читает все входные данные до конца потока
             string[] arr = k.Split(' ');
             sr.Close();
 
 
-            StreamWriter sw = new StreamWriter(@"C:\Users\ASUS\Desktop\text1.txt");
+            StreamWriter sw = new StreamWriter(@"C:\Users\ASUS\Desktop\text1.txt"); //вывод символов в определенной кодировке
             string res = "";
 
             for (int i = 0; i < arr.Length; i++)
