@@ -23,8 +23,8 @@ namespace task1
         }
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\key.txt");
-            string k = sr.ReadToEnd();
+            StreamReader sr = new StreamReader(@"C:\Users\ASUS\Desktop\key.txt");// читает текстовые файлы
+            string k = sr.ReadToEnd();//читает все входные данные до конца потока
             if (polindrome(k) == true)
             {
                 Console.WriteLine("Yes");
